@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+     
+    </style>
+  </head>
+  <body id="smooth-wrapper">
+    <!-- wrapper -->
+    <div class="wrapper" id="smooth-content" >
+      <div class="banner__section hidden" id="hidden">
+        <nav class="nav">
+          <div class="banner__section__img">
+            <img src="./images/logo.svg" />
+          </div>
+          
+          <div class="navlist">
+            <a href="#about" class="link">About</a>
+            <a href="#services" class="link">Services</a>
+            <a href="#projects" class="link">Projects</a>
+           
+            <li>
+              <a href="#contact" class="banner__section__menu__contact">Contact</a>
+            </li>
+          </div>
+          <!-- hamburger on mobile mode -->
+          <div class="hamburger">
+           <span class="bar"></span>
+           <span class="bar"></span>
+           <span class="bar"></span>
+          </div>
+         
+        </nav> 
+
+        <div class="banner__section__heading">
+          <h1 id="quote" class="animate__animated animate__bounce">WE ARE CREATIVES</h1>
+          <img src="./images/icon-arrow-down.svg" alt="icon arrow" id="arrow"/>
+        </div>
+      </div>
+      <!-- features -->
+      <main > 
+        <!-- 1 -->
+        <section class="feature__section1 hidden" id="about">
+          <div class="section1__desc">
+            <h1>Transform your brand</h1>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#">LEARN MORE<hr/></a>
+          </div>
+          <div class="section1__img">
+            <img src="./images/desktop/image-transform.jpg" alt="egg" />
+          </div>
+        </section>
+        <!-- 2 -->
+        <section class="feature__section2 hidden"  id="hidden">
+          <div class="section2__img">
+            <img src="./images/desktop/image-stand-out.jpg" alt="egg" />
+          </div>
+          <div class="section2__desc">
+            <h1>Stand out to the right audience</h1>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places
+          </p>
+          <a href="#">LEARN MORE
+            <hr/>
+          </div>
+         
+        </section>
+        <!-- 3 -->
+        <section class="feature__section3 hidden"  id="services">
+          <div class="feature__section3__box1" id="box1">
+            <img
+              src="./images/desktop/image-graphic-design.jpg"
+              alt="graphic design"
+              id="design"
+            />
+            <div class="img-text1">
+              <h1 class="graphic_design">Graphic Design</h1>
+              <p class="graphic_design">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+        <!-- box2 -->
+        <div class="feature__section3__box2" id="box2">
+          <img
+            src="./images/desktop/image-photography.jpg"
+            alt="photography"
+            id="photography"
+          />
+          <div class="img-text2">
+            <h1 class="photography">Photography</h1>
+            <p class="photography">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+        </section>
+      
+      </main>
+
+        <!-- testimonials -->
+        <section class="client-testimonials hidden"  id="hidden">
+          <h1 class="testimonial-title">CLIENT TESTIMONIALS</h1>
+          <div class="testimonial-content">
+            <div class="testimonial-card">
+              <img src="./images/image-emily.jpg" alt="photo client" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure our
+                needs were met and deadlines were always hit
+              </p>
+              <h2>Emily R.</h2>
+              <span>Marketing Director</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="./images/image-thomas.jpg" alt="photo client" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure our
+                needs were met and deadlines were always hit
+              </p>
+              <h2>Thomas S.</h2>
+              <span>Chief Operating Office</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="./images/image-jennie.jpg" alt="photo client" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure our
+                needs were met and deadlines were always hit
+              </p>
+              <h2>Jennie F.</h2>
+              <span>Bussines Owner</span>
+            </div>
+          </div>
+        </section>
+        <!-- image grid -->
+        <section class="image__grid hidden"  id="projects">
+          <img
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt="1"
+            id="milk"
+          />
+          <img
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt="2"
+            id="orange"
+          />
+          <img
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt="3"
+            id="cone"
+          />
+          <img
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt="4"
+            id="sugarcubes"
+          />
+        </section>
+
+<!-- footer -->
+      <footer class="hidden" id="contact">
+        <h2 class="footer__heading">sunnyside</h2>
+        <div class="contact-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+        </div>
+        <div class="socials">
+          <a href="#"
+            ><img src="./images/icon-facebook.svg" alt="facebook icon"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-instagram.svg" alt="insta icon"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-twitter.svg" alt="icon-twitter "
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-pinterest.svg" alt="pin\
+            "
+          /></a>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://www.frontendmentor.io/profile/Psargar616" target="_blank">@Psargar616</a>.
+        </div>
+
+      </footer>
+    </div>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="main.js"></script>
+   <script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav_menu = document.querySelector('.navlist');
+    const nav_link= document.querySelectorAll('.link')
+
+    hamburger.addEventListener('click', () =>{
+        hamburger.classList.toggle('active');
+        nav_menu.classList.toggle('active')
+    })
+
+
+
+    nav_link.addEventListener('click',() =>{
+        hamburger.classList.remove('active');
+        nav_menu.classList.remove('active');
+    })
+
+
+   </script>
+  </body>
+</html>
