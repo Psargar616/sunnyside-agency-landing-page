@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Psargar616/sunnyside-agency-landing-page-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ solution URL ](https://github.com/Psargar616/sunnyside-agency-landing-page-main)
+- Live Site URL: [ live site URL ](https://psargar616.github.io/sunnyside-agency-landing-page/)
 
 ### Built with
 
